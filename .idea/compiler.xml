@@ -9,8 +9,8 @@
         <module name="tech-news-java-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="tech-news-java-api" target="11" />
+    <bytecodeTargetLevel target="8">
+      <module name="tech-news-java-api" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
