@@ -66,6 +66,5 @@ public class UserController {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteUser(@PathVariable int id) {
         repository.deleteById(id);
-
     }
 }

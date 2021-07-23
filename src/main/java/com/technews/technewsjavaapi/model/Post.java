@@ -37,6 +37,8 @@ public class Post {
     @OneToMany(mappedBy = "postId", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Comment> comments;
 
+    public Post() {}
+
     public Post(Integer id, String title, String postUrl, String userName) {
         this.id = id;
         this.title = title;
